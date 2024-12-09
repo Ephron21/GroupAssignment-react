@@ -119,6 +119,7 @@ function App() {
       <Parent />
 
       <div style={{ textAlign: 'center', marginTop: '50px' }}>
+        <h1>Question #3</h1>
         <h2>Reusable Button Component</h2>
         <Button text="Submit" color="green" onClick={handleSubmit} />
         <Button text="Cancel" color="red" onClick={handleCancel} />
@@ -126,6 +127,7 @@ function App() {
       </div>
 
       <div style={{ textAlign: 'center', marginTop: '50px', marginLeft: '35%' }}>
+      <h1 style={{textAlign: 'center'}}>question #4 </h1>
         <ProfileCard name="Esron TUYISHIME" age={20} email="esron21@gmail.com" />
       </div>
 
@@ -133,17 +135,43 @@ function App() {
         <h2>Welcome to the List of Names</h2>
         <ListName items={items} />
       </div>
-
+    
       <ToggleButton />
       <Counter />
-      <HoverBackground />
+      <div>
+      <h1 style={{textAlign: 'center'}}>Question #8</h1>
+        <HoverBackground /></div>
+        <div>
+      <h1 style={{textAlign: 'center'}}>Question #9</h1>
       <Form />
+      </div>
+      
+      <div>
+      <h1 style={{textAlign: 'center'}}>Question #10</h1>
       <DropdownMenu />
+      </div>
+      
+      <div>
+      <h1 style={{textAlign: 'center'}}>Question #11</h1>
       <LoginForm />
+      </div>
+      
       <ControlledForm />
+      <div>
+      <h1 style={{textAlign: 'center'}}>Question #13</h1>
       <ValidationForm />
+      </div>
+      
+      <div>
+      <h1 style={{textAlign: 'center'}}>Question #14</h1>
       <MultiStepForm />
+      </div>
+      
+      <div>
+      <h1 style={{textAlign: 'center'}}>Question #15</h1>
       <CheckboxForm />
+      </div>
+      
       <Parents />
       <Counts />
 
@@ -167,11 +195,13 @@ function App() {
       </div>
 
       <div style={{ textAlign: 'center' }}>
+      <h1 style={{textAlign: 'center'}}>Question #25</h1>
         <h2>Live Clock with Optimized Static UI</h2>
         <StaticUI />
         <div>Current Time: {currentTime}</div>
       </div>
-
+<div>
+<h1 style={{textAlign: 'center'}}>Routing Question # from 16-20</h1>
       <Router>
   <nav style={{ display: 'flex', justifyContent: 'center', background: '#007BFF', padding: '10px' }}>
     <Link to="/" style={{ color: 'white', textDecoration: 'none', marginRight: '15px' }}>Home</Link>
@@ -191,6 +221,7 @@ function App() {
     <Route path="*" element={<NotFound />} />
   </Routes>
 </Router>
+</div>
     </>
   );
 }

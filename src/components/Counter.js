@@ -16,7 +16,8 @@ function Counter() {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>Counter: {count}</h1>
+      <h1>question #7 </h1>
+      <h2>Counter: {count}</h2>
       <div>
         <button
           onClick={increment}

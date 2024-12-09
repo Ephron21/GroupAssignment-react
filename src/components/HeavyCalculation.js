@@ -15,6 +15,7 @@ const HeavyCalculation = React.memo(({ number }) => {
 
   return (
     <div>
+       <h1 style={{textAlign: 'center'}}>Question #23</h1>
       <h2>Heavy Calculation Result: {calculatedValue}</h2>
     </div>
   );

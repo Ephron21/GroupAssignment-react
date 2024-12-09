@@ -6,6 +6,7 @@ function ControlledForm() {
 
   return (
     <div>
+      <h1 style={{textAlign: 'center'}}>question #12</h1>
       <form>
         <label>Enter Text: </label>
         <input

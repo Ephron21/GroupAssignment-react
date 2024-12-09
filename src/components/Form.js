@@ -16,7 +16,7 @@ function Form() {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>Form Example</h1>
+      <h2>Form Example</h2>
       <form onSubmit={handleSubmit}>
         <div style={{ marginBottom: '15px' }}>
           <label htmlFor="name" style={{ marginRight: '10px' }}>Name:</label>

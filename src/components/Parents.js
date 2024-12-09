@@ -7,7 +7,8 @@ const Parents = () => {
 
   return (
     <div style={{textAlign: 'center'}}>
-      <h1>Parent Component</h1>
+       <h1 style={{textAlign: 'center'}}>Question #21</h1>
+      <h2>Parent Component</h2>
       <button onClick={() => setCount(count + 1)}>Increment Count ({count})</button>
       <button onClick={() => setMessage('Updated Message')}>Update Message</button>
       <Child message={message} />

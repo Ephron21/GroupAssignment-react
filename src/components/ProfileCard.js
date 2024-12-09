@@ -4,14 +4,14 @@ const ProfileCard=(props) => {//arrow function
   const { name, age, email } = props;
 
   return (
-    <div><h1>question #4 </h1>
+    
     <div style={styles.card}>
      
       <h2 style={styles.name}>{name}</h2>
       <p style={styles.age}>Age: {age}</p>
       <p style={styles.email}>Email: {email}</p>
     </div>
-    </div>
+    
   );
 }
 
