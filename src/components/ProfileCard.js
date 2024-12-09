@@ -25,6 +25,7 @@ const styles = {
     boxShadow: '0 8px 8px blue',
     textAlign: 'center',
     fontFamily: 'Arial, sans-serif',
+    
   },
   name: {
     fontSize: '24px',

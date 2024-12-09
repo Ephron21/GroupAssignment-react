@@ -14,7 +14,7 @@ function ControlledForm() {
           onChange={(e) => setInputValue(e.target.value)}
         />
       </form>
-      <p>Entered Value: {inputValue}</p>
+      <p style={{textAlign:'center'}}>Entered Value: {inputValue}</p>
     </div>
   );
 }

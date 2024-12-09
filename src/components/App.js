@@ -125,7 +125,7 @@ function App() {
         <Button text="Delete" color="blue" onClick={handleDelete} />
       </div>
 
-      <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <div style={{ textAlign: 'center', marginTop: '50px', marginLeft: '35%' }}>
         <ProfileCard name="Esron TUYISHIME" age={20} email="esron21@gmail.com" />
       </div>
 

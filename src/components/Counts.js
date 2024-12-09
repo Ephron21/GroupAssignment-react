@@ -6,7 +6,7 @@ const Counts = () => {
   const [items] = useState(['React', 'CSS', 'HTML', 'JAVASCRIPT']);
 
   return (
-    <div>
+    <div style={{textAlign: 'center'}}>
       <h1>Counter Component</h1>
       <button onClick={() => setCount(count + 1)}>Increment Count ({count})</button>
       <h2>Unrelated List</h2>
